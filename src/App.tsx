@@ -18,7 +18,8 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      <BrowserRouter>
+      {/* O basename avisa ao React que todas as rotas começam após /lar-da-crianca */}
+      <BrowserRouter basename="/lar-da-crianca">
         <div className="flex flex-col min-h-screen">
           <Navigation />
           <main className="flex-1">
@@ -27,7 +28,6 @@ const App = () => (
               <Route path="/sobre" element={<About />} />
               <Route path="/como-ajudar" element={<HowToHelp />} />
               <Route path="/contato" element={<Contact />} />
-              {/* ADICIONE TODAS AS ROTAS PERSONALIZADAS ACIMA DA ROTA GENÉRICA "*" */}
               <Route path="*" element={<NotFound />} />
             </Routes>
           </main>
