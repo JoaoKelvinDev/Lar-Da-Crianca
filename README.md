@@ -1,68 +1,50 @@
-🏠 Lar da Criança — Sistema Web
-📌 Descrição do Projeto
+# 🏠 Lar da Criança - Teresina
 
-O Lar da Criança é um sistema web desenvolvido com o objetivo de apoiar instituições sociais no gerenciamento e na comunicação com a comunidade. A aplicação foi pensada para oferecer uma interface moderna, acessível e intuitiva, facilitando o acesso às informações da instituição e fortalecendo sua presença digital.
+Site oficial da ONG **Lar da Criança**, localizada em Teresina - PI. Este projeto foi desenvolvido para dar visibilidade às ações da instituição, facilitar doações e conectar voluntários.
 
-O projeto busca unir tecnologia e impacto social, proporcionando uma solução simples, funcional e visualmente agradável.
+## 🚀 Tecnologias Utilizadas
 
-🎯 Objetivos
+O projeto foi construído com as tecnologias mais modernas do ecossistema React:
 
-Divulgar informações institucionais de forma clara
+* **React + TypeScript** (Interface e tipagem segura)
+* **Vite** (Build tool ultra rápida)
+* **Tailwind CSS** (Estilização moderna e responsiva)
+* **Shadcn UI** (Componentes de interface de alta qualidade)
+* **Lucide React** (Ícones bonitos e leves)
+* **React Router Dom** (Navegação entre páginas)
 
-Facilitar o contato entre a instituição e a comunidade
+## 📦 Como rodar o projeto localmente
 
-Oferecer uma experiência de navegação moderna e responsiva
+Se você quiser baixar e rodar este projeto na sua máquina, siga os passos abaixo:
 
-Criar uma base escalável para futuras funcionalidades
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/JoaoKelvinDev/lar-da-crianca.git](https://github.com/JoaoKelvinDev/lar-da-crianca.git)
+    ```
+2.  **Entre na pasta:**
+    ```bash
+    cd lar-da-crianca
+    ```
+3.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
+4.  **Inicie o servidor de desenvolvimento:**
+    ```bash
+    npm run dev
+    ```
+5.  Acesse `http://localhost:8080` no seu navegador.
 
-🛠️ Tecnologias Utilizadas
+## 🌐 Deploy
 
-React
+O site está publicado e disponível no **GitHub Pages**:
+🔗 [Visualizar Site ao Vivo](https://joaokelvindev.github.io/lar-da-crianca/)
 
-TypeScript
+## 📄 Scripts Disponíveis
 
-HTML5
+* `npm run dev`: Inicia o servidor local.
+* `npm run build`: Cria a versão de produção na pasta `dist`.
+* `npm run deploy`: Realiza o build e envia para o GitHub Pages automaticamente.
 
-CSS3
-
-JavaScript
-
-Vite (ou CRA, se preferir ajustar)
-
-Git & GitHub
-
-📱 Funcionalidades
-
-Página institucional
-
-Página de contato
-
-Layout responsivo (desktop e mobile)
-
-Estrutura organizada por componentes
-
-Código limpo e de fácil manutenção
-
-🚀 Como executar o projeto
-# Instalar as dependências
-npm install
-
-# Rodar o projeto
-npm run dev
-
-📈 Futuras melhorias
-
-Integração com back-end
-
-Formulário de contato funcional
-
-Painel administrativo
-
-Acessibilidade aprimorada
-
-SEO e performance
-
-👨‍💻 Desenvolvedor
-
-João Kelvin
-Desenvolvedor em formação, com foco em desenvolvimento web, cloud e soluções tecnológicas voltadas para impacto social.
+---
+❤️ *Desenvolvido com carinho para apoiar as crianças de Teresina.*
